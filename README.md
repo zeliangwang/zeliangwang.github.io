@@ -1,5 +1,5 @@
 ## Data for personal webpage 
-`zeliangwang.github.io`
+[zeliangwang.github.io](https://zeliangwang.github.io/)
 ***
 ### How to build and run static website using `Jekyll`
 1. Create a new `Gemfile` in your project root directory to list your project's dependencies
