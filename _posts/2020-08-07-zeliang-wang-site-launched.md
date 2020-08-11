@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_2
 title: "Zeliang Wang, PhD, Launches Site"
 date: 2020-08-07
 ---
