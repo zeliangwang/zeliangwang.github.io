@@ -278,7 +278,6 @@ DEPENDENCIES
   jekyll-katex
   jekyll-scholar
   jekyll-sitemap
-  minima (~> 2.5)
 
 BUNDLED WITH
    2.1.4

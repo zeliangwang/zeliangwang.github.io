@@ -15,4 +15,5 @@
     ```
 ***
 ### Reference
-[Jekyll documentation](https://jekyllrb.com/docs/step-by-step/01-setup/)
+- [Jekyll documentation](https://jekyllrb.com/docs/step-by-step/01-setup/)
+- [Setting up GitHub Pages with Jekyll](https://docs.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll)
