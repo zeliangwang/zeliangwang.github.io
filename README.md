@@ -40,7 +40,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-### Option 1: To host this website on GitHub Pages:
+### Option 2: To host this website on GitHub Pages:
 
 1. Edit the `Gemfile` and add `github-pages` as a dependency:
 ```bash
