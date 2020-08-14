@@ -1,6 +1,7 @@
 name: Zeliang Wang
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+github: [metadata]
 
 highlighter: rouge
 environment: prod
