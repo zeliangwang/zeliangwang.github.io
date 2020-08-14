@@ -15,3 +15,43 @@ All content on this site is distributed under a [Creative Commons Attribution 3.
   * If you don't want commenting, remove or comment out the block of code entirely.
 
 Otherwise I will receive GA data and DISQUS comments from your website.
+
+
+### Option 1: To test this website on a local server, simple follow the steps below:
+1. Create a new `Gemfile` in the root directory if it doesn't exist:
+
+```bash
+bundle init
+```
+2. Edit the `Gemfile` and add Jekyll as a dependency:
+```bash
+source 'https://rubygems.org'
+gem 'jekyll'
+```
+3. Run `bundle` to install Jekyll for the project:
+
+```bash
+bundle update
+bundle install
+```
+
+4. Build and view the website via `http://localhost:4000`:
+```bash
+bundle exec jekyll serve
+```
+
+### Option 1: To host this website on GitHub Pages:
+
+1. Edit the `Gemfile` and add `github-pages` as a dependency:
+```bash
+source 'https://rubygems.org'
+gem 'github-pages'
+```
+2. Run `bundle` to update:
+
+```bash
+bundle update
+bundle install
+```
+
+3. Push to your remote repository:
