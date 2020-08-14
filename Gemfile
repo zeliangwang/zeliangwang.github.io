@@ -1,15 +1,7 @@
-# frozen_string_literal: true
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
-gem 'github-pages', group: :jekyll_plugins
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+# Option 1: uncomment the following line to host the website on github-page
+gem 'github-pages'
 
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-	gem "jekyll-scholar"
-	gem "jekyll-sitemap"
-	gem "jekyll-feed"
-	gem "jekyll-katex"
-end
-
-# gem "rails"
+# Option 2: uncomment the following line to host the website on a local server
+# gem 'jekyll'

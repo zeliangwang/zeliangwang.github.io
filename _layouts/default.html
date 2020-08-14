@@ -1,30 +1,22 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-
-		<body>
-			<!-- <nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/research">Research</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav> -->
-
-			<div class="container">
-			{{ content }}
-			</div><!-- /.container -->
+<html lang="en">
+	
+	{% include head.html %}
+	
+	<body>
+		<div class="container">
 			
-			<footer>
-	    		<ul>
-	        		<li><a href="https://www.linkedin.com/in/zeliangwang/">LinkedIn</a></li>
-	        		<li><a href="https://github.com/zeliangwang">github.com/zeliangwang</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+			{% include header.html %}
+			
+			{{ content }}
+			
+			{% include footer.html %}
+		
+		</div> <!-- /container -->
+	
+	
+		{% include scripts.html %}
+	
+	</body>
+
+</html>
