@@ -1,0 +1,67 @@
+---
+layout: default
+title: IMA-2014
+description: A New Multichannel Spectral Factorization Algorithm for Parahermitian Polynomial Matrices.
+---
+<div class="guide">
+  <div class="title">
+  <h2>A New Multichannel Spectral Factorization Algorithm for Parahermitian Polynomial Matrices</h2>
+  <p>Zeliang Wang, Johh G. McWhirter</p>
+  <p><a href="http://orca.cf.ac.uk/69305/1/IMAconferencePaper.pdf" class="btn btn-primary btn-md" role="button">PDF</a>&nbsp;&nbsp;&nbsp;
+	<!-- <a href="http://orca.cf.ac.uk/69305/1/IMAconferencePaper.pdf" class="btn btn-primary btn-md" role="button">Other Options</a> -->
+  </p>
+</div>
+
+<h3>Abstract</h3>
+<p>GitHub is a web hosting service for the source code of software and web development projects (or other text based projects) that use Git. In many cases, most of the code is publicly available, enabling developers to easily investigate, collaborate, download, use, improve, and remix that code. The container for the code of a specific project is called a repository.</p>
+
+<p>There are thousands of really cool and exciting repositories on GitHub, with new ones added every day. Some examples of popular software development projects that make their code available on GitHub include:</p>
+<ul>
+	<li><a href="https://github.com/twbs/bootstrap">Twitter Bootstrap</a>, an extremely popular front-end framework for mobile first websites, created by developers at Twitter.</li>
+	<li><a href="https://github.com/h5bp/html5-boilerplate">HTML5 Boilerplate</a>, a front-end template for quickly building websites, </li>
+	<li>The JavaScript Visualization Library <a href="https://github.com/mbostock/d3">D3</a></li>
+	<li><a href="https://github.com/rails/rails">Ruby on Rails</a>, the open-source web framework built on Ruby.</li>
+</ul>
+
+<img class="img-responsive" src="/img/guides/github-ruby-on-rails.png"/>
+
+<p>Notice the plain text at the top of the file. Jekyll calls this the Front-matter. Any file on your site that contains this will be processed by Jekyll. Every time you commit a file that specifies <code>layout: default</code> at the top, Jekyll will magically generate the full HTML document by replacing <code>&lbrace;&lbrace; content &rbrace;&rbrace;</code> in <code>_layouts/default.html</code> with the contents of the committed file. Awesome!</p>
+
+<h3>Setting up a Blog</h3>
+<p>A Jekyll-based blog uses the same conventions that we've familiarized ourselves with in the previous steps, but takes things further by adding a few more for us to follow. Jekyll is very flexible allowing you to extend your site as you wish, but in this guide we're only going to cover the basics: creating a post, making a page to list our posts, creating a custom permalink for posts, and creating an RSS feed for the blog.</p> 
+
+	<p><span class="step">15</span> Inside your <code>blog/</code> directory create a file and name it <code>atom.xml</code>. Add this to file:
+<pre class="prettyprint pre-scrollable"><code>---
+layout: feed
+---
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;feed xmlns="http://www.w3.org/2005/Atom"&gt;
+
+	&lt;title&gt;Hank Quinlan's Blog&lt;/title&gt;
+	&lt;link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/&gt;
+	&lt;link href="http://hankquinlan.github.io/blog"/&gt;
+	&lt;updated&gt;&lbrace;&lbrace; site.time | date_to_xmlschema &rbrace;&rbrace;&lt;/updated&gt;
+	&lt;id&gt;http://hankquinlan.github.io/blog&lt;/id&gt;
+	&lt;author&gt;
+		&lt;name&gt;Hank Quinlan&lt;/name&gt;
+		&lt;email&gt;hankquinlanhub@gmail.com&lt;/email&gt;
+	&lt;/author&gt;
+
+	&lbrace;&percnt; for post in site.posts &percnt;&rbrace;
+		&lt;entry&gt;
+			&lt;title&gt;&lbrace;&lbrace; post.title &rbrace;&rbrace;&lt;/title&gt;
+			&lt;link href="http://hankquinlan.github.io&lbrace;&lbrace; post.url &rbrace;&rbrace;"/&gt;
+			&lt;updated&gt;&lbrace;&lbrace; post.date | date_to_xmlschema &rbrace;&rbrace;&lt;/updated&gt;
+			&lt;id&gt;http://hankquinlan.github.io&lbrace;&lbrace; post.id &rbrace;&rbrace;&lt;/id&gt;
+			&lt;content type="html"&gt;&lbrace;&lbrace; post.content | xml_escape &rbrace;&rbrace;&lt;/content&gt;
+		&lt;/entry&gt;
+	&lbrace;&percnt; endfor &percnt;&rbrace;
+
+&lt;/feed&gt;</code></pre>
+
+<hr>
+<div class="notes">
+<h2>Notes</h2>
+<p id="n1">1. Somasundaram, R. (2013). <em>Git: Version Control for Everyone</em> (pp. 9-17). Birmingham, UK: Packt Publishing. 
+</div>
+</div> <!-- /.github -->
