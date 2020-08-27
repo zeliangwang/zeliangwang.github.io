@@ -93,7 +93,7 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 	font-family: 'Montserrat', Helvetica, sans-serif; }
 
 /* colored textbox */
-#textbox {
+.textbox {
 	background-color: rgb(221, 226, 221) ;
 	padding: 8px ;
 	font-size: 13px;
