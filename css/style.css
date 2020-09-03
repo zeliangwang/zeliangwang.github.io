@@ -40,7 +40,7 @@ ul.listnotes { margin: 0 auto; }
 ul.listnotes li {line-height: 30px; } 
 
 /* Note */
-.note, .contact, .about, .error, .swatches { width: 85%; margin: 0 auto; line-height: 26px; }
+.note, .contact, .about, .error, .swatches { width: 90%; margin: 0 auto; line-height: 25px; }
 .note h2.date, .swatch-log h2.date { font-size: 24.5px; font-weight: 300; font-style: italic; }
 
 /* Swatches */
@@ -56,13 +56,14 @@ ul.swatch li:first-child { webkit-border-top-left-radius: 9px; -webkit-border-bo
 .swatch-log p { font-size: 14px; clear: left; margin-top: 10px; font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; }
 .clear { clear: both; height: 20px; }
 
-/* CV */
-.cv {line-height: 23px; width: 90%; margin: 0 auto;}
-.cv li { line-height: 23px; }
-.cv h2 { font-size: 26.5px; }
-.cv h1 { font-size: 32.5px; }
+/* Research */
+.research {line-height: 20px; width: 95%; margin: 0 auto;}
+.research li { line-height: 23px; }
+.research h2 { font-size: 26.5px; }
+.research h1 { font-size: 32.5px; }
 
-.notes, .contact, .about, .cv, .error, .swatches { margin-bottom: 30px; }
+.notes, .contact, .about, .research, .error, .swatches { margin-bottom: 30px; }
+.blog {width: 95%; margin-bottom: 30px; }
 
 /* Contact */
 iframe {font-family: 'Merriweather', Georgia, Times; font-size: 16px;}
@@ -71,7 +72,7 @@ iframe {font-family: 'Merriweather', Georgia, Times; font-size: 16px;}
 .about ul.list-unstyled li { line-height: 30px; text-indent: -30px; margin-left: 30px;}
 
 /* Guides */
-.guide { width: 90%; margin: 0 auto 60px auto; line-height: 26px;}
+.guide { width: 95%; margin: 0 auto 60px auto; line-height: 20px;}
 .guide .title { padding: 100px 30px 0px; width: 100%; height: 60%; margin-bottom: 40px; background: #d5d5d5; color: #428bca; }
 .guide .title h1 { font-size: 46px; color: #181818; }
 .guide p { margin: 0 0 1em;  }
