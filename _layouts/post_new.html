@@ -1,28 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>{{ page.title }}</title>
-    <meta charset='UTF-8'>
-    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <title>{{ page.title }} | Dr Zeliang Wang</title>
+	<meta charset="utf-8">
+    <meta name="viewport" width="device-width, initial-scale=1.0">
+	<meta name="description" content="{{ page.description }}">
+	<meta name="author" content="Zeliang Wang">
+	<meta name='keywords' content='{{ page.keywords }}'>
 
-    <meta name='description' content='Zeliang Wang is a Data Scientist at the University of Exeter.'>
-    <meta name='keywords' content='{{ page.keywords }}'>
-    <meta name='author' content='Zeliang Wang'>
+    <!-- Style files for posts -->
+    <link href='/css/blog.css' rel='stylesheet'>
 
-    <link href='/css/blog.css' rel='stylesheet'/>
-    <link href='/css/trac.css' rel='stylesheet'/>
-    <link href='/css/markdown.css' rel='stylesheet'/>
-
+    <!-- For typesetting math functions -->
     {% include mathjax.html %}
 </head>
-
 <body>
 <div class='content'>
     {% include nav.html %}
     <div class='front-matter'>
         <div class='wrap'>
             <h1>{{ page.title }}</h1>
-            <h4>{{ page.subtitle }}</h4>
+            <h3>{{ page.subtitle }}</h3>
             <div class='bylines'>
                 <div class='byline'>
                     <h3>Published</h3>
@@ -35,7 +32,6 @@
     <div class='wrap article'>
         {{ content }}
     </div>
-
 </div>
 </body>
 </html>

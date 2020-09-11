@@ -28,6 +28,7 @@ h6 {
 }
 h1 {
   line-height: 1.2em;
+  font-size: xx-large;
 }
 .clear {
   clear: both;
@@ -36,7 +37,7 @@ h1 {
   display: none;
 }
 .wrap {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
 }
 .mono {
@@ -81,19 +82,19 @@ h1 {
   font-family: -apple-system, Helvetica, arial, sans-serif;
 }
 .front-matter .bylines .byline h3 {
-  font-size: 9px;
+  font-size: 10px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.5);
 }
 .front-matter .bylines .byline p {
-  font-size: 10px;
+  font-size: 11px;
   line-height: 1.6em;
 }
 .article {
   font-size: 15px;
-  line-height: 1.6em;
-  color: rgba(0, 0, 0, 0.8);
-  margin-top: 50px;
+  line-height: 1.3em;
+  color: rgba(0, 0, 0, 0.9);
+  margin-top: 30px;
   margin-bottom: 50px;
 }
 .article blockquote {

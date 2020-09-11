@@ -3810,19 +3810,25 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding: 10px 15px;
 }
 
+
+
+
+/* Color when hovering on 'Research, Blog, Misc, Contact' */
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #dddddd;
 }
 
 .nav > li.disabled > a {
   color: #999999;
+  /* color: #d41111; */
 }
 
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
   color: #999999;
+  /* color: #d41111; */
   text-decoration: none;
   cursor: not-allowed;
   background-color: transparent;
@@ -3917,11 +3923,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-left: 2px;
 }
 
+/* color when nav button is clicked */
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
+
   background-color: #428bca;
+  /* background-color: #ca426f; */
 }
 
 .nav-stacked > li {
