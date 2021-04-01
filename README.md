@@ -59,5 +59,6 @@ Otherwise I will receive GA data and DISQUS comments from your website.
 
 ### References
 ***
+- [Install Ruby](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04)
 - [Jekyll documentation](https://jekyllrb.com/docs/step-by-step/01-setup/)
 - [Setting up GitHub Pages with Jekyll](https://docs.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll)
